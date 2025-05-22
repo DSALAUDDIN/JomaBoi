@@ -1,25 +1,25 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/authentication/landing_screen.dart';
-import 'package:flutter_chat_pro/authentication/login_screen.dart';
-import 'package:flutter_chat_pro/authentication/opt_screen.dart';
-import 'package:flutter_chat_pro/authentication/user_information_screen.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/firebase_options.dart';
-import 'package:flutter_chat_pro/main_screen.dart';
-import 'package:flutter_chat_pro/main_screen/chat_screen.dart';
-import 'package:flutter_chat_pro/main_screen/friend_requests_screen.dart';
-import 'package:flutter_chat_pro/main_screen/friends_screen.dart';
-import 'package:flutter_chat_pro/main_screen/group_information_screen.dart';
-import 'package:flutter_chat_pro/main_screen/group_settings_screen.dart';
-import 'package:flutter_chat_pro/main_screen/home_screen.dart';
-import 'package:flutter_chat_pro/main_screen/profile_screen.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/providers/chat_provider.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
+import 'package:JomaBoi/authentication/landing_screen.dart';
+import 'package:JomaBoi/authentication/login_screen.dart';
+import 'package:JomaBoi/authentication/opt_screen.dart';
+import 'package:JomaBoi/authentication/user_information_screen.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/firebase_options.dart';
+import 'package:JomaBoi/main_screen.dart';
+import 'package:JomaBoi/main_screen/chat_screen.dart';
+import 'package:JomaBoi/main_screen/friend_requests_screen.dart';
+import 'package:JomaBoi/main_screen/friends_screen.dart';
+import 'package:JomaBoi/main_screen/group_information_screen.dart';
+import 'package:JomaBoi/main_screen/group_settings_screen.dart';
+import 'package:JomaBoi/main_screen/home_screen.dart';
+import 'package:JomaBoi/main_screen/profile_screen.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/providers/chat_provider.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_chat_pro/bloc/cubit/app_cubit.dart';
+import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
 import 'package:provider/provider.dart';
 
 void main() async {
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
       builder: (theme, darkTheme) => MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'JomaBoi_CoOp',
+        title: 'Co-Operative',
         theme: theme,
         darkTheme: darkTheme,
         initialRoute: Constants.landingScreen,

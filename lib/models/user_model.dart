@@ -1,4 +1,4 @@
-import 'package:flutter_chat_pro/constants.dart';
+import 'package:JomaBoi/constants.dart';
 
 class UserModel {
   String uid;

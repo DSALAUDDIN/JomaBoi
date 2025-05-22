@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // Corrected import assuming your project name is 'joma_boi'
-import 'package:flutter_chat_pro/main.dart';
+import 'package:JomaBoi/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

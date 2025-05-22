@@ -1,19 +1,19 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:flutter_chat_pro/bloc/cubit/app_cubit.dart';
-import 'package:flutter_chat_pro/dao/account_dao.dart';
-import 'package:flutter_chat_pro/dao/payment_dao.dart';
-import 'package:flutter_chat_pro/events.dart';
-import 'package:flutter_chat_pro/model/account.model.dart';
+import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
+import 'package:JomaBoi/dao/account_dao.dart';
+import 'package:JomaBoi/dao/payment_dao.dart';
+import 'package:JomaBoi/events.dart';
+import 'package:JomaBoi/model/account.model.dart';
 
-//import 'package:flutter_chat_pro/model/group.model.dart';
-import 'package:flutter_chat_pro/model/category.model.dart';
+//import 'package:JomaBoi/model/group.model.dart';
+import 'package:JomaBoi/model/category.model.dart';
 
-import 'package:flutter_chat_pro/model/payment.model.dart';
-import 'package:flutter_chat_pro/pages/widgets/account_slider.dart';
-import 'package:flutter_chat_pro/pages/widgets/payment_list_item.dart';
-import 'package:flutter_chat_pro/pages/payment_form.screen.dart';
-import 'package:flutter_chat_pro/theme/colors.dart';
-import 'package:flutter_chat_pro/widgets/currency.dart';
+import 'package:JomaBoi/model/payment.model.dart';
+import 'package:JomaBoi/pages/widgets/account_slider.dart';
+import 'package:JomaBoi/pages/widgets/payment_list_item.dart';
+import 'package:JomaBoi/pages/payment_form.screen.dart';
+import 'package:JomaBoi/theme/colors.dart';
+import 'package:JomaBoi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';

@@ -2,7 +2,7 @@ import "dart:convert";
 import "dart:io";
 import "package:flutter/material.dart";
 import "package:path/path.dart";
-import "package:flutter_chat_pro/helpers/migrations/migrations.dart";
+import "package:JomaBoi/helpers/migrations/migrations.dart";
 import "package:sqflite_common_ffi/sqflite_ffi.dart";
 
 import 'package:path_provider/path_provider.dart';
@@ -168,7 +168,7 @@ Future<dynamic> export() async {
 
   final path = await getExternalDocumentPath();
   String name =
-      "flutter_chat_pro-backup-${DateTime.now().millisecondsSinceEpoch}.json";
+      "JomaBoi-backup-${DateTime.now().millisecondsSinceEpoch}.json";
   File file = File('$path/$name');
   await file.writeAsString(jsonEncode(data));
   return file.path;

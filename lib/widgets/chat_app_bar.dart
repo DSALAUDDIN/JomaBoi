@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/models/user_model.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/models/user_model.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:timeago/timeago.dart' as timeago;

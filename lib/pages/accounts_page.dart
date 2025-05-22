@@ -1,11 +1,11 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:flutter_chat_pro/dao/account_dao.dart';
-import 'package:flutter_chat_pro/events.dart';
-import 'package:flutter_chat_pro/model/account.model.dart';
-import 'package:flutter_chat_pro/theme/colors.dart';
-import 'package:flutter_chat_pro/widgets/currency.dart';
-import 'package:flutter_chat_pro/widgets/dialog/account_form.dialog.dart';
-import 'package:flutter_chat_pro/widgets/dialog/confirm.modal.dart';
+import 'package:JomaBoi/dao/account_dao.dart';
+import 'package:JomaBoi/events.dart';
+import 'package:JomaBoi/model/account.model.dart';
+import 'package:JomaBoi/theme/colors.dart';
+import 'package:JomaBoi/widgets/currency.dart';
+import 'package:JomaBoi/widgets/dialog/account_form.dialog.dart';
+import 'package:JomaBoi/widgets/dialog/confirm.modal.dart';
 import 'package:flutter/material.dart';
 
 maskAccount(String value, [int lastLength = 4]){

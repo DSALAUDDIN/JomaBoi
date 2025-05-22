@@ -1,5 +1,5 @@
-import 'package:flutter_chat_pro/model/payment.model.dart';
-import 'package:flutter_chat_pro/widgets/currency.dart';
+import 'package:JomaBoi/model/payment.model.dart';
+import 'package:JomaBoi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../../theme/colors.dart';

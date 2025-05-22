@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/models/message_model.dart';
-import 'package:flutter_chat_pro/widgets/swipe_to_widget.dart';
+import 'package:JomaBoi/models/message_model.dart';
+import 'package:JomaBoi/widgets/swipe_to_widget.dart';
 
 class MessageWidget extends StatelessWidget {
   const MessageWidget({

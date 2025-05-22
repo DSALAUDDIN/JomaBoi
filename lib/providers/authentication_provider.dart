@@ -5,10 +5,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/models/user_model.dart';
-import 'package:flutter_chat_pro/pages/onboard/onboard_screen.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/models/user_model.dart';
+import 'package:JomaBoi/pages/onboard/onboard_screen.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthenticationProvider extends ChangeNotifier {

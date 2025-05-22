@@ -1,10 +1,10 @@
 import 'dart:async';
-import 'package:flutter_chat_pro/dao/account_dao.dart';
-import 'package:flutter_chat_pro/dao/category_dao.dart';
-import 'package:flutter_chat_pro/helpers/db.helper.dart';
-import 'package:flutter_chat_pro/model/account.model.dart';
-import 'package:flutter_chat_pro/model/category.model.dart';
-import 'package:flutter_chat_pro/model/payment.model.dart';
+import 'package:JomaBoi/dao/account_dao.dart';
+import 'package:JomaBoi/dao/category_dao.dart';
+import 'package:JomaBoi/helpers/db.helper.dart';
+import 'package:JomaBoi/model/account.model.dart';
+import 'package:JomaBoi/model/category.model.dart';
+import 'package:JomaBoi/model/payment.model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

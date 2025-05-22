@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/widgets/botton_chat_field.dart';
-import 'package:flutter_chat_pro/widgets/chat_app_bar.dart';
-import 'package:flutter_chat_pro/widgets/chat_list.dart';
-import 'package:flutter_chat_pro/widgets/group_chat_app_bar.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/widgets/botton_chat_field.dart';
+import 'package:JomaBoi/widgets/chat_app_bar.dart';
+import 'package:JomaBoi/widgets/chat_list.dart';
+import 'package:JomaBoi/widgets/group_chat_app_bar.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});

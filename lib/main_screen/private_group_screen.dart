@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/models/group_model.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/widgets/chat_widget.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/models/group_model.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/widgets/chat_widget.dart';
 import 'package:provider/provider.dart';
 
 class PrivateGroupScreen extends StatefulWidget {

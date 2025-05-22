@@ -1,6 +1,6 @@
-import 'package:flutter_chat_pro/pages/onboard/widgets/currency_pic.dart';
-import 'package:flutter_chat_pro/pages/onboard/widgets/landing.dart';
-import 'package:flutter_chat_pro/pages/onboard/widgets/profile.dart';
+import 'package:JomaBoi/pages/onboard/widgets/currency_pic.dart';
+import 'package:JomaBoi/pages/onboard/widgets/landing.dart';
+import 'package:JomaBoi/pages/onboard/widgets/profile.dart';
 import 'package:flutter/material.dart';
 
 class OnboardScreen extends StatelessWidget {

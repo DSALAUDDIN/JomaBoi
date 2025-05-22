@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:flutter_chat_pro/helpers/db.helper.dart';
-import 'package:flutter_chat_pro/model/category.model.dart';
+import 'package:JomaBoi/helpers/db.helper.dart';
+import 'package:JomaBoi/model/category.model.dart';
 import 'package:intl/intl.dart';
 
 class CategoryDao {

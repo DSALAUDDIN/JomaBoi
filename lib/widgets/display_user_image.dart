@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/utilities/assets_manager.dart';
+import 'package:JomaBoi/utilities/assets_manager.dart';
 
 class DisplayUserImage extends StatelessWidget {
   const DisplayUserImage({

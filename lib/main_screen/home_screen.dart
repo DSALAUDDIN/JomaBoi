@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/main_screen/create_group_screen.dart';
-import 'package:flutter_chat_pro/main_screen/my_chats_screen.dart';
-import 'package:flutter_chat_pro/main_screen/groups_screen.dart';
-import 'package:flutter_chat_pro/main_screen/people_screen.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/main_screen/create_group_screen.dart';
+import 'package:JomaBoi/main_screen/my_chats_screen.dart';
+import 'package:JomaBoi/main_screen/groups_screen.dart';
+import 'package:JomaBoi/main_screen/people_screen.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen>
     final authProvider = context.watch<AuthenticationProvider>();
     return Scaffold(
         appBar: AppBar(
-          title: const Text('JomaBoi_CoOp'),
+          title: const Text('Co-Operative'),
           actions: [
             Padding(
               padding: const EdgeInsets.all(8.0),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/main_screen/home_screen.dart';
-import 'package:flutter_chat_pro/pages/accounts_page.dart';
-import 'package:flutter_chat_pro/pages/categories_page.dart';
-import 'package:flutter_chat_pro/pages/home_page.dart';
-import 'package:flutter_chat_pro/pages/settings_page.dart';
+import 'package:JomaBoi/main_screen/home_screen.dart';
+import 'package:JomaBoi/pages/accounts_page.dart';
+import 'package:JomaBoi/pages/categories_page.dart';
+import 'package:JomaBoi/pages/home_page.dart';
+import 'package:JomaBoi/pages/settings_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);

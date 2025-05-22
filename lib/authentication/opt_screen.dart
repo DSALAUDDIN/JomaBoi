@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/pages/onboard/onboard_screen.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/pages/onboard/onboard_screen.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';

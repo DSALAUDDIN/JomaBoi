@@ -1,10 +1,10 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/enums/enums.dart';
-import 'package:flutter_chat_pro/models/message_model.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
-import 'package:flutter_chat_pro/widgets/display_message_type.dart';
-import 'package:flutter_chat_pro/widgets/message_reply_preview.dart';
+import 'package:JomaBoi/enums/enums.dart';
+import 'package:JomaBoi/models/message_model.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:JomaBoi/widgets/display_message_type.dart';
+import 'package:JomaBoi/widgets/message_reply_preview.dart';
 import 'package:flutter_chat_reactions/widgets/stacked_reactions.dart';
 
 class AlignMessageLeftWidget extends StatelessWidget {

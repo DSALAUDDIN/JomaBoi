@@ -1,10 +1,10 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/models/group_model.dart';
-import 'package:flutter_chat_pro/models/last_message_model.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
-import 'package:flutter_chat_pro/widgets/unread_message_counter.dart';
+import 'package:JomaBoi/models/group_model.dart';
+import 'package:JomaBoi/models/last_message_model.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:JomaBoi/widgets/unread_message_counter.dart';
 import 'package:provider/provider.dart';
 
 class ChatWidget extends StatelessWidget {

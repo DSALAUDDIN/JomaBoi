@@ -1,12 +1,12 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/enums/enums.dart';
-import 'package:flutter_chat_pro/models/user_model.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/widgets/friend_widget.dart';
-import 'package:flutter_chat_pro/widgets/settings_list_tile.dart';
-import 'package:flutter_chat_pro/widgets/settings_switch_list_tile.dart';
+import 'package:JomaBoi/enums/enums.dart';
+import 'package:JomaBoi/models/user_model.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/widgets/friend_widget.dart';
+import 'package:JomaBoi/widgets/settings_list_tile.dart';
+import 'package:JomaBoi/widgets/settings_switch_list_tile.dart';
 import 'package:provider/provider.dart';
 
 class GroupSettingsScreen extends StatefulWidget {

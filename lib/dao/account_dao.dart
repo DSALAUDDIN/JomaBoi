@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:flutter_chat_pro/helpers/db.helper.dart';
-import 'package:flutter_chat_pro/model/account.model.dart';
+import 'package:JomaBoi/helpers/db.helper.dart';
+import 'package:JomaBoi/model/account.model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class AccountDao {

@@ -1,8 +1,8 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:flutter_chat_pro/dao/category_dao.dart';
-import 'package:flutter_chat_pro/events.dart';
-import 'package:flutter_chat_pro/model/category.model.dart';
-import 'package:flutter_chat_pro/widgets/dialog/category_form.dialog.dart';
+import 'package:JomaBoi/dao/category_dao.dart';
+import 'package:JomaBoi/events.dart';
+import 'package:JomaBoi/model/category.model.dart';
+import 'package:JomaBoi/widgets/dialog/category_form.dialog.dart';
 import 'package:flutter/material.dart';
 
 

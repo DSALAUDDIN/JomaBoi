@@ -1,6 +1,6 @@
 import 'package:currency_picker/currency_picker.dart';
-import 'package:flutter_chat_pro/bloc/cubit/app_cubit.dart';
-import 'package:flutter_chat_pro/helpers/currency.helper.dart';
+import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
+import 'package:JomaBoi/helpers/currency.helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

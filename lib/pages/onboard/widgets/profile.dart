@@ -1,5 +1,5 @@
-import 'package:flutter_chat_pro/bloc/cubit/app_cubit.dart';
-import 'package:flutter_chat_pro/helpers/color.helper.dart';
+import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
+import 'package:JomaBoi/helpers/color.helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,5 +1,5 @@
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/enums/enums.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/enums/enums.dart';
 
 class MessageReplyModel {
   final String message;

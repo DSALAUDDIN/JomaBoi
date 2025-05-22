@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/models/group_model.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
-import 'package:flutter_chat_pro/widgets/group_members.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/models/group_model.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:JomaBoi/widgets/group_members.dart';
 import 'package:provider/provider.dart';
 
 class GroupChatAppBar extends StatefulWidget {

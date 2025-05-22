@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/main_screen/group_settings_screen.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
-import 'package:flutter_chat_pro/widgets/settings_list_tile.dart';
+import 'package:JomaBoi/main_screen/group_settings_screen.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:JomaBoi/widgets/settings_list_tile.dart';
 
 class SettingsAndMedia extends StatelessWidget {
   const SettingsAndMedia({

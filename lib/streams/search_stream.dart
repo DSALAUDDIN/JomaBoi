@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/constants.dart';
-import 'package:flutter_chat_pro/models/last_message_model.dart';
-import 'package:flutter_chat_pro/providers/chat_provider.dart';
-import 'package:flutter_chat_pro/widgets/chat_widget.dart';
+import 'package:JomaBoi/constants.dart';
+import 'package:JomaBoi/models/last_message_model.dart';
+import 'package:JomaBoi/providers/chat_provider.dart';
+import 'package:JomaBoi/widgets/chat_widget.dart';
 import 'package:provider/provider.dart';
 
 class SearchStream extends StatelessWidget {

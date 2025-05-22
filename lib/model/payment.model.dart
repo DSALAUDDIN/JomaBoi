@@ -1,5 +1,5 @@
-import 'package:flutter_chat_pro/model/account.model.dart';
-import 'package:flutter_chat_pro/model/category.model.dart';
+import 'package:JomaBoi/model/account.model.dart';
+import 'package:JomaBoi/model/category.model.dart';
 import 'package:intl/intl.dart';
 
 enum PaymentType {

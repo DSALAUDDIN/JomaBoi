@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/providers/authentication_provider.dart';
-import 'package:flutter_chat_pro/providers/group_provider.dart';
-import 'package:flutter_chat_pro/utilities/global_methods.dart';
-import 'package:flutter_chat_pro/widgets/add_members.dart';
-import 'package:flutter_chat_pro/widgets/app_bar_back_button.dart';
-import 'package:flutter_chat_pro/widgets/exit_group_card.dart';
-import 'package:flutter_chat_pro/widgets/group_details_card.dart';
-import 'package:flutter_chat_pro/widgets/group_members_card.dart';
-import 'package:flutter_chat_pro/widgets/settings_and_media.dart';
+import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:JomaBoi/widgets/add_members.dart';
+import 'package:JomaBoi/widgets/app_bar_back_button.dart';
+import 'package:JomaBoi/widgets/exit_group_card.dart';
+import 'package:JomaBoi/widgets/group_details_card.dart';
+import 'package:JomaBoi/widgets/group_members_card.dart';
+import 'package:JomaBoi/widgets/settings_and_media.dart';
 import 'package:provider/provider.dart';
 
 class GroupInformationScreen extends StatefulWidget {

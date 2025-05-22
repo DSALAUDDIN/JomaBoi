@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_pro/enums/enums.dart';
+import 'package:JomaBoi/enums/enums.dart';
 
 class GroupTypeListTile extends StatelessWidget {
   GroupTypeListTile({
