@@ -41,6 +41,7 @@ class _OTPScreenState extends State<OTPScreen> {
       textStyle: GoogleFonts.openSans(
         fontSize: 22,
         fontWeight: FontWeight.w600,
+        color: Colors.black, // Ensures visibility in dark mode
       ),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
