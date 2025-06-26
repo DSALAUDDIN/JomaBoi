@@ -1,13 +1,13 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/models/user_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
-import 'package:JomaBoi/widgets/app_bar_back_button.dart';
-import 'package:JomaBoi/widgets/group_details_card.dart';
-import 'package:JomaBoi/widgets/settings_list_tile.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/models/user_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
+import 'package:jomaboi/widgets/app_bar_back_button.dart';
+import 'package:jomaboi/widgets/group_details_card.dart';
+import 'package:jomaboi/widgets/settings_list_tile.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 

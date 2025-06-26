@@ -1,11 +1,11 @@
 import 'package:currency_picker/currency_picker.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
-import 'package:JomaBoi/helpers/color.helper.dart';
-import 'package:JomaBoi/helpers/db.helper.dart';
-import 'package:JomaBoi/widgets/buttons/button.dart';
-import 'package:JomaBoi/widgets/dialog/confirm.modal.dart';
-import 'package:JomaBoi/widgets/dialog/loading_dialog.dart';
+import 'package:jomaboi/bloc/cubit/app_cubit.dart';
+import 'package:jomaboi/helpers/color.helper.dart';
+import 'package:jomaboi/helpers/db.helper.dart';
+import 'package:jomaboi/widgets/buttons/button.dart';
+import 'package:jomaboi/widgets/dialog/confirm.modal.dart';
+import 'package:jomaboi/widgets/dialog/loading_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:material_symbols_icons/material_symbols_icons.dart';

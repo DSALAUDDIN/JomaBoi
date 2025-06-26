@@ -1,5 +1,5 @@
-import 'package:JomaBoi/theme/colors.dart';
-import 'package:JomaBoi/widgets/buttons/button.dart';
+import 'package:jomaboi/theme/colors.dart';
+import 'package:jomaboi/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 
 class ConfirmModal extends StatelessWidget{

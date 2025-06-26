@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/providers/group_provider.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
-import 'package:JomaBoi/widgets/add_members.dart';
-import 'package:JomaBoi/widgets/app_bar_back_button.dart';
-import 'package:JomaBoi/widgets/exit_group_card.dart';
-import 'package:JomaBoi/widgets/group_details_card.dart';
-import 'package:JomaBoi/widgets/group_members_card.dart';
-import 'package:JomaBoi/widgets/settings_and_media.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/providers/group_provider.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
+import 'package:jomaboi/widgets/add_members.dart';
+import 'package:jomaboi/widgets/app_bar_back_button.dart';
+import 'package:jomaboi/widgets/exit_group_card.dart';
+import 'package:jomaboi/widgets/group_details_card.dart';
+import 'package:jomaboi/widgets/group_members_card.dart';
+import 'package:jomaboi/widgets/settings_and_media.dart';
 import 'package:provider/provider.dart';
 
 class GroupInformationScreen extends StatefulWidget {

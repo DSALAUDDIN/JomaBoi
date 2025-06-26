@@ -1,5 +1,5 @@
-import 'package:JomaBoi/helpers/color.helper.dart';
-import 'package:JomaBoi/widgets/buttons/button.dart';
+import 'package:jomaboi/helpers/color.helper.dart';
+import 'package:jomaboi/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget {

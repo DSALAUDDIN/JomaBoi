@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/models/message_model.dart';
-import 'package:JomaBoi/widgets/align_message_left_widget.dart';
-import 'package:JomaBoi/widgets/align_message_right_widget.dart';
+import 'package:jomaboi/models/message_model.dart';
+import 'package:jomaboi/widgets/align_message_left_widget.dart';
+import 'package:jomaboi/widgets/align_message_right_widget.dart';
 import 'package:swipe_to/swipe_to.dart';
 
 class SwipeToWidget extends StatelessWidget {

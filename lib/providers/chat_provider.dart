@@ -2,13 +2,13 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/models/last_message_model.dart';
-import 'package:JomaBoi/models/message_model.dart';
-import 'package:JomaBoi/models/message_reply_model.dart';
-import 'package:JomaBoi/models/user_model.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/models/last_message_model.dart';
+import 'package:jomaboi/models/message_model.dart';
+import 'package:jomaboi/models/message_reply_model.dart';
+import 'package:jomaboi/models/user_model.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
 import 'package:uuid/uuid.dart';
 
 class ChatProvider extends ChangeNotifier {

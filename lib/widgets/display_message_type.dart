@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/widgets/audio_player_widget.dart';
-import 'package:JomaBoi/widgets/video_player_widget.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/widgets/audio_player_widget.dart';
+import 'package:jomaboi/widgets/video_player_widget.dart';
 
 class DisplayMessageType extends StatelessWidget {
   const DisplayMessageType({

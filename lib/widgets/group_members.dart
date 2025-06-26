@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/providers/group_provider.dart';
 import 'package:provider/provider.dart';
 
 class GroupMembers extends StatelessWidget {

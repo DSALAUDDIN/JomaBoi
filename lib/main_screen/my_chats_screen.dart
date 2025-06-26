@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/models/last_message_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/providers/chat_provider.dart';
-import 'package:JomaBoi/streams/chats_stream.dart';
-import 'package:JomaBoi/streams/search_stream.dart';
-import 'package:JomaBoi/widgets/chat_widget.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/models/last_message_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/providers/chat_provider.dart';
+import 'package:jomaboi/streams/chats_stream.dart';
+import 'package:jomaboi/streams/search_stream.dart';
+import 'package:jomaboi/widgets/chat_widget.dart';
 import 'package:provider/provider.dart';
 
 class MyChatsScreen extends StatefulWidget {

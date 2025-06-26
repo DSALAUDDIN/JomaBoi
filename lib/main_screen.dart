@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/main_screen/home_screen.dart';
-import 'package:JomaBoi/pages/accounts_page.dart';
-import 'package:JomaBoi/pages/categories_page.dart';
-import 'package:JomaBoi/pages/home_page.dart';
-import 'package:JomaBoi/pages/settings_page.dart';
+import 'package:jomaboi/main_screen/home_screen.dart';
+import 'package:jomaboi/pages/accounts_page.dart';
+import 'package:jomaboi/pages/categories_page.dart';
+import 'package:jomaboi/pages/home_page.dart';
+import 'package:jomaboi/pages/settings_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);

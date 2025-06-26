@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/models/message_model.dart';
-import 'package:JomaBoi/models/message_reply_model.dart';
-import 'package:JomaBoi/providers/chat_provider.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
-import 'package:JomaBoi/widgets/display_message_type.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/models/message_model.dart';
+import 'package:jomaboi/models/message_reply_model.dart';
+import 'package:jomaboi/providers/chat_provider.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
+import 'package:jomaboi/widgets/display_message_type.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 

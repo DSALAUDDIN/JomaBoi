@@ -1,9 +1,9 @@
-import 'package:JomaBoi/dao/account_dao.dart';
-import 'package:JomaBoi/events.dart';
-import 'package:JomaBoi/model/account.model.dart';
-import 'package:JomaBoi/widgets/buttons/button.dart';
+import 'package:jomaboi/dao/account_dao.dart';
+import 'package:jomaboi/events.dart';
+import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/data/icons.dart';
+import 'package:jomaboi/data/icons.dart';
 typedef Callback = void Function();
 
 class AccountForm extends StatefulWidget {

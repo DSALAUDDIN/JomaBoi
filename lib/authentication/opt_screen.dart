@@ -1,15 +1,15 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/pages/onboard/onboard_screen.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/pages/onboard/onboard_screen.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pinput/pinput.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class OTPScreen extends StatefulWidget {
-  const OTPScreen({super.key});
+  const OTPScreen({Key? key}) : super(key: key);
 
   @override
   State<OTPScreen> createState() => _OTPScreenState();
@@ -29,7 +29,6 @@ class _OTPScreenState extends State<OTPScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // get the arguments
     final args = ModalRoute.of(context)!.settings.arguments as Map;
     final verificationId = args[Constants.verificationId] as String;
     final phoneNumber = args[Constants.phoneNumber] as String;
@@ -99,7 +98,6 @@ class _OTPScreenState extends State<OTPScreen> {
                       setState(() {
                         otpCode = pin;
                       });
-                      // verify otp code
                       verifyOTPCode(
                         verificationId: verificationId,
                         otpCode: otpCode!,
@@ -188,7 +186,6 @@ class _OTPScreenState extends State<OTPScreen> {
       otpCode: otpCode,
       context: context,
       onSuccess: () async {
-        // After successful OTP verification, let the landing screen handle the flow
         Navigator.pushNamedAndRemoveUntil(
           context,
           Constants.landingScreen,

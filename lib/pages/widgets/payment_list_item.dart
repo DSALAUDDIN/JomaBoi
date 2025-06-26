@@ -1,5 +1,5 @@
-import 'package:JomaBoi/model/payment.model.dart';
-import 'package:JomaBoi/widgets/currency.dart';
+import 'package:jomaboi/model/payment.model.dart';
+import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../../theme/colors.dart';

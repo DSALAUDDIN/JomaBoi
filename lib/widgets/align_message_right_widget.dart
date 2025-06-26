@@ -1,10 +1,10 @@
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/models/message_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/widgets/display_message_type.dart';
-import 'package:JomaBoi/widgets/message_reply_preview.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/models/message_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/widgets/display_message_type.dart';
+import 'package:jomaboi/widgets/message_reply_preview.dart';
 import 'package:flutter_chat_reactions/widgets/stacked_reactions.dart';
 import 'package:provider/provider.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/providers/chat_provider.dart';
+import 'package:jomaboi/providers/chat_provider.dart';
 import 'package:provider/provider.dart';
 
 class UnreadMessageCounter extends StatelessWidget {

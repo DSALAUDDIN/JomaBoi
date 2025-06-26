@@ -1,5 +1,5 @@
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/enums/enums.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/enums/enums.dart';
 
 class MessageReplyModel {
   final String message;

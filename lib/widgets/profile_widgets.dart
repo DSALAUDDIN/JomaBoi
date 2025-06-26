@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/main_screen/friend_requests_screen.dart';
-import 'package:JomaBoi/models/user_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/providers/group_provider.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/main_screen/friend_requests_screen.dart';
+import 'package:jomaboi/models/user_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/providers/group_provider.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 

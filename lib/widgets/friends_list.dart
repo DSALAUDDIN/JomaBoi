@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/models/user_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/widgets/friend_widget.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/models/user_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/widgets/friend_widget.dart';
 import 'package:provider/provider.dart';
 
 class FriendsList extends StatelessWidget {

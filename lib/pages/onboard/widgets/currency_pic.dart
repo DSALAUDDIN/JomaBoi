@@ -1,7 +1,7 @@
 import 'package:currency_picker/currency_picker.dart';
-import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/helpers/db.helper.dart';
+import 'package:jomaboi/bloc/cubit/app_cubit.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/helpers/db.helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';

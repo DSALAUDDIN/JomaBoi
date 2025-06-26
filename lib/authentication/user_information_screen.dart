@@ -1,32 +1,28 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/models/user_model.dart';
-import 'package:JomaBoi/providers/authentication_provider.dart';
-import 'package:JomaBoi/utilities/global_methods.dart';
-import 'package:JomaBoi/widgets/app_bar_back_button.dart';
-import 'package:JomaBoi/widgets/display_user_image.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/models/user_model.dart';
+import 'package:jomaboi/providers/authentication_provider.dart';
+import 'package:jomaboi/utilities/global_methods.dart';
+import 'package:jomaboi/widgets/app_bar_back_button.dart';
+import 'package:jomaboi/widgets/display_user_image.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:provider/provider.dart';
 
 class UserInformationScreen extends StatefulWidget {
-  const UserInformationScreen({super.key});
+  const UserInformationScreen({Key? key}) : super(key: key);
 
   @override
   State<UserInformationScreen> createState() => _UserInformationScreenState();
 }
 
 class _UserInformationScreenState extends State<UserInformationScreen> {
-  // final RoundedLoadingButtonController _btnController =
-  //     RoundedLoadingButtonController();
   final TextEditingController _nameController = TextEditingController();
   File? finalFileImage;
   String userImage = '';
 
   @override
   void dispose() {
-    //_btnController.stop();
     _nameController.dispose();
     super.dispose();
   }
@@ -38,14 +34,11 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
         showSnackBar(context, message);
       },
     );
-
-    // crop image
     await cropImage(finalFileImage?.path);
-
     popContext();
   }
 
-  popContext() {
+  void popContext() {
     Navigator.pop(context);
   }
 
@@ -57,7 +50,6 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
         maxWidth: 800,
         compressQuality: 90,
       );
-
       if (croppedFile != null) {
         setState(() {
           finalFileImage = File(croppedFile.path);
@@ -106,100 +98,73 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
         title: const Text('User Information'),
       ),
       body: Center(
-          child: Padding(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 20,
-          vertical: 20.0,
-        ),
-        child: Column(
-          children: [
-            DisplayUserImage(
-              finalFileImage: finalFileImage,
-              radius: 60,
-              onPressed: () {
-                showBottomSheet();
-              },
-            ),
-            const SizedBox(height: 30),
-            TextField(
-              controller: _nameController,
-              decoration: const InputDecoration(
-                hintText: 'Enter your name',
-                labelText: 'Enter your name',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(8),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 20,
+            vertical: 20.0,
+          ),
+          child: Column(
+            children: [
+              DisplayUserImage(
+                finalFileImage: finalFileImage,
+                radius: 60,
+                onPressed: () {
+                  showBottomSheet();
+                },
+              ),
+              const SizedBox(height: 30),
+              TextField(
+                controller: _nameController,
+                decoration: const InputDecoration(
+                  hintText: 'Enter your name',
+                  labelText: 'Enter your name',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(8),
+                    ),
                   ),
                 ),
               ),
-            ),
-            const SizedBox(height: 40),
-            Container(
-              width: double.infinity,
-              height: 50,
-              decoration: BoxDecoration(
-                color: Theme.of(context).primaryColor,
-                borderRadius: BorderRadius.circular(25),
+              const SizedBox(height: 40),
+              Container(
+                width: double.infinity,
+                height: 50,
+                decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor,
+                  borderRadius: BorderRadius.circular(25),
+                ),
+                child: MaterialButton(
+                  onPressed: context.read<AuthenticationProvider>().isLoading
+                      ? null
+                      : () {
+                          if (_nameController.text.isEmpty ||
+                              _nameController.text.length < 3) {
+                            showSnackBar(context, 'Please enter your name');
+                            return;
+                          }
+                          saveUserDataToFireStore();
+                        },
+                  child: context.watch<AuthenticationProvider>().isLoading
+                      ? const CircularProgressIndicator(
+                          color: Colors.orangeAccent,
+                        )
+                      : const Text(
+                          'Continue',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500,
+                              letterSpacing: 1.5),
+                        ),
+                ),
               ),
-              child: MaterialButton(
-                onPressed: context.read<AuthenticationProvider>().isLoading
-                    ? null
-                    : () {
-                        if (_nameController.text.isEmpty ||
-                            _nameController.text.length < 3) {
-                          showSnackBar(context, 'Please enter your name');
-                          return;
-                        }
-                        // save user data to firestore
-                        saveUserDataToFireStore();
-                      },
-                child: context.watch<AuthenticationProvider>().isLoading
-                    ? const CircularProgressIndicator(
-                        color: Colors.orangeAccent,
-                      )
-                    : const Text(
-                        'Continue',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18,
-                            fontWeight: FontWeight.w500,
-                            letterSpacing: 1.5),
-                      ),
-              ),
-
-              // RoundedLoadingButton(
-              //   controller: _btnController,
-              //   onPressed: () {
-              //     if (_nameController.text.isEmpty ||
-              //         _nameController.text.length < 3) {
-              //       showSnackBar(context, 'Please enter your name');
-              //       _btnController.reset();
-              //       return;
-              //     }
-              //     // save user data to firestore
-              //     saveUserDataToFireStore();
-              //   },
-              //   successIcon: Icons.check,
-              //   successColor: Colors.green,
-              //   errorColor: Colors.red,
-              //   color: Theme.of(context).primaryColor,
-              //   child: const Text(
-              //     'Continue',
-              //     style: TextStyle(
-              //       color: Colors.white,
-              //       fontSize: 16,
-              //       fontWeight: FontWeight.w500,
-              //     ),
-              //   ),
-              // ),
-            ),
-          ],
+            ],
+          ),
         ),
-      )),
+      ),
     );
   }
 
-  // save user data to firestore
   void saveUserDataToFireStore() async {
     final authProvider = context.read<AuthenticationProvider>();
 
@@ -222,9 +187,7 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
       userModel: userModel,
       fileImage: finalFileImage,
       onSuccess: () async {
-        // save user data to shared preferences
         await authProvider.saveUserDataToSharedPreferences();
-
         navigateToHomeScreen();
       },
       onFail: () async {
@@ -234,7 +197,6 @@ class _UserInformationScreenState extends State<UserInformationScreen> {
   }
 
   void navigateToHomeScreen() {
-    // navigate to main screen and remove all previous screens
     Navigator.of(context).pushNamedAndRemoveUntil(
       Constants.mainScreen,
       (route) => false,

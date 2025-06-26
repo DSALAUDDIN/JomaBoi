@@ -1,5 +1,5 @@
-import 'package:JomaBoi/model/account.model.dart';
-import 'package:JomaBoi/widgets/currency.dart';
+import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 
 class AccountsSlider extends StatefulWidget{

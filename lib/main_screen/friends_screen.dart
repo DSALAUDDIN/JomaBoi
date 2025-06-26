@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/enums/enums.dart';
-import 'package:JomaBoi/widgets/app_bar_back_button.dart';
-import 'package:JomaBoi/widgets/friends_list.dart';
+import 'package:jomaboi/enums/enums.dart';
+import 'package:jomaboi/widgets/app_bar_back_button.dart';
+import 'package:jomaboi/widgets/friends_list.dart';
 
 class FriendsScreen extends StatefulWidget {
   const FriendsScreen({super.key});

@@ -32,7 +32,7 @@ class Account {
     name: data["name"],
     holderName: data["holderName"] ??"",
     accountNumber: data["accountNumber"]??"",
-    icon: IconData(data["icon"], fontFamily: 'MaterialIcons'),
+    icon: const IconData(0xe88a, fontFamily: 'MaterialIcons'),
     color: Color(data["color"]),
     isDefault: data["isDefault"]==1?true:false,
     income: data["income"],

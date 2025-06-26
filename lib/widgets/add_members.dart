@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/providers/group_provider.dart';
+import 'package:jomaboi/providers/group_provider.dart';
 
 class AddMembers extends StatelessWidget {
   const AddMembers({

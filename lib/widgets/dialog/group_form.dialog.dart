@@ -1,14 +1,14 @@
-import 'package:JomaBoi/dao/group_dao.dart';
-//import 'package:JomaBoi/dao/category_dao.dart';
+import 'package:jomaboi/dao/group_dao.dart';
+//import 'package:jomaboi/dao/category_dao.dart';
 
-import 'package:JomaBoi/data/icons.dart';
-import 'package:JomaBoi/events.dart';
+import 'package:jomaboi/data/icons.dart';
+import 'package:jomaboi/events.dart';
 
-import 'package:JomaBoi/model/group.model.dart';
-//import 'package:JomaBoi/model/category.model.dart';
+import 'package:jomaboi/model/group.model.dart';
+//import 'package:jomaboi/model/category.model.dart';
 
-import 'package:JomaBoi/widgets/buttons/button.dart';
-import 'package:JomaBoi/widgets/currency.dart';
+import 'package:jomaboi/widgets/buttons/button.dart';
+import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

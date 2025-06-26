@@ -1,4 +1,4 @@
-import 'package:JomaBoi/constants.dart';
+import 'package:jomaboi/constants.dart';
 
 class UserModel {
   String uid;

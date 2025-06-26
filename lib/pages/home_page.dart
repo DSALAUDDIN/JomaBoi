@@ -1,19 +1,19 @@
 import 'package:events_emitter/events_emitter.dart';
-import 'package:JomaBoi/bloc/cubit/app_cubit.dart';
-import 'package:JomaBoi/dao/account_dao.dart';
-import 'package:JomaBoi/dao/payment_dao.dart';
-import 'package:JomaBoi/events.dart';
-import 'package:JomaBoi/model/account.model.dart';
+import 'package:jomaboi/bloc/cubit/app_cubit.dart';
+import 'package:jomaboi/dao/account_dao.dart';
+import 'package:jomaboi/dao/payment_dao.dart';
+import 'package:jomaboi/events.dart';
+import 'package:jomaboi/model/account.model.dart';
 
-//import 'package:JomaBoi/model/group.model.dart';
-import 'package:JomaBoi/model/category.model.dart';
+//import 'package:jomaboi/model/group.model.dart';
+import 'package:jomaboi/model/category.model.dart';
 
-import 'package:JomaBoi/model/payment.model.dart';
-import 'package:JomaBoi/pages/widgets/account_slider.dart';
-import 'package:JomaBoi/pages/widgets/payment_list_item.dart';
-import 'package:JomaBoi/pages/payment_form.screen.dart';
-import 'package:JomaBoi/theme/colors.dart';
-import 'package:JomaBoi/widgets/currency.dart';
+import 'package:jomaboi/model/payment.model.dart';
+import 'package:jomaboi/pages/widgets/account_slider.dart';
+import 'package:jomaboi/pages/widgets/payment_list_item.dart';
+import 'package:jomaboi/pages/payment_form.screen.dart';
+import 'package:jomaboi/theme/colors.dart';
+import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';

@@ -1,6 +1,6 @@
-import 'package:JomaBoi/pages/onboard/widgets/currency_pic.dart';
-import 'package:JomaBoi/pages/onboard/widgets/landing.dart';
-import 'package:JomaBoi/pages/onboard/widgets/profile.dart';
+import 'package:jomaboi/pages/onboard/widgets/currency_pic.dart';
+import 'package:jomaboi/pages/onboard/widgets/landing.dart';
+import 'package:jomaboi/pages/onboard/widgets/profile.dart';
 import 'package:flutter/material.dart';
 
 class OnboardScreen extends StatelessWidget {

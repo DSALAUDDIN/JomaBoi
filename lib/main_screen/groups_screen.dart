@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:JomaBoi/constants.dart';
-import 'package:JomaBoi/main_screen/private_group_screen.dart';
-import 'package:JomaBoi/main_screen/public_group_screen.dart';
+import 'package:jomaboi/constants.dart';
+import 'package:jomaboi/main_screen/private_group_screen.dart';
+import 'package:jomaboi/main_screen/public_group_screen.dart';
 
 class GroupsScreen extends StatefulWidget {
   const GroupsScreen({super.key});
