@@ -2,9 +2,9 @@ import 'dart:async';
 import 'package:jomaboi/dao/account_dao.dart';
 import 'package:jomaboi/dao/category_dao.dart';
 import 'package:jomaboi/helpers/db.helper.dart';
-import 'package:jomaboi/model/account.model.dart';
-import 'package:jomaboi/model/category.model.dart';
-import 'package:jomaboi/model/payment.model.dart';
+import 'package:jomaboi/models/account.model.dart';
+import 'package:jomaboi/models/category.model.dart';
+import 'package:jomaboi/models/payment.model.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

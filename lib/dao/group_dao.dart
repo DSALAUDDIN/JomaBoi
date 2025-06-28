@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:jomaboi/helpers/db.helper.dart';
 //import 'package:jomaboi/model/category.model.dart';
-import 'package:jomaboi/model/group.model.dart';
+import 'package:jomaboi/models/group.model.dart';
 import 'package:intl/intl.dart';
 
 class GroupDao {

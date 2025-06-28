@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:jomaboi/helpers/db.helper.dart';
-import 'package:jomaboi/model/category.model.dart';
+import 'package:jomaboi/models/category.model.dart';
 import 'package:intl/intl.dart';
 
 class CategoryDao {

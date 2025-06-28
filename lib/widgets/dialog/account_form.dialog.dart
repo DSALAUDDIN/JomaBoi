@@ -1,6 +1,6 @@
 import 'package:jomaboi/dao/account_dao.dart';
 import 'package:jomaboi/events.dart';
-import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/models/account.model.dart';
 import 'package:jomaboi/widgets/buttons/button.dart';
 import 'package:flutter/material.dart';
 import 'package:jomaboi/data/icons.dart';

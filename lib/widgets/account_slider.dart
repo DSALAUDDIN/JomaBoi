@@ -1,4 +1,4 @@
-import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/models/account.model.dart';
 import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
 

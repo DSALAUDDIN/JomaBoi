@@ -1,7 +1,7 @@
 import 'package:events_emitter/events_emitter.dart';
 import 'package:jomaboi/dao/category_dao.dart';
 import 'package:jomaboi/events.dart';
-import 'package:jomaboi/model/category.model.dart';
+import 'package:jomaboi/models/category.model.dart';
 import 'package:jomaboi/widgets/dialog/category_form.dialog.dart';
 import 'package:flutter/material.dart';
 

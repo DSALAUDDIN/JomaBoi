@@ -1,5 +1,5 @@
-import 'package:jomaboi/model/account.model.dart';
-import 'package:jomaboi/model/category.model.dart';
+import 'package:jomaboi/models/account.model.dart';
+import 'package:jomaboi/models/category.model.dart';
 import 'package:intl/intl.dart';
 
 enum PaymentType {

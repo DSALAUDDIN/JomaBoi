@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:jomaboi/helpers/db.helper.dart';
-import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/models/account.model.dart';
 import 'package:sqflite/sqflite.dart';
 
 class AccountDao {

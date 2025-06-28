@@ -1,7 +1,7 @@
 import 'package:events_emitter/events_emitter.dart';
 import 'package:jomaboi/dao/account_dao.dart';
 import 'package:jomaboi/events.dart';
-import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/models/account.model.dart';
 import 'package:jomaboi/theme/colors.dart';
 import 'package:jomaboi/widgets/currency.dart';
 import 'package:jomaboi/widgets/dialog/account_form.dialog.dart';

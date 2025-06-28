@@ -3,14 +3,14 @@ import 'package:jomaboi/bloc/cubit/app_cubit.dart';
 import 'package:jomaboi/dao/account_dao.dart';
 import 'package:jomaboi/dao/payment_dao.dart';
 import 'package:jomaboi/events.dart';
-import 'package:jomaboi/model/account.model.dart';
+import 'package:jomaboi/models/account.model.dart';
 
 //import 'package:jomaboi/model/group.model.dart';
-import 'package:jomaboi/model/category.model.dart';
+import 'package:jomaboi/models/category.model.dart';
 
-import 'package:jomaboi/model/payment.model.dart';
-import 'package:jomaboi/pages/widgets/account_slider.dart';
-import 'package:jomaboi/pages/widgets/payment_list_item.dart';
+import 'package:jomaboi/models/payment.model.dart';
+import 'package:jomaboi/widgets/account_slider.dart';
+import 'package:jomaboi/widgets/payment_list_item.dart';
 import 'package:jomaboi/pages/payment_form.screen.dart';
 import 'package:jomaboi/theme/colors.dart';
 import 'package:jomaboi/widgets/currency.dart';

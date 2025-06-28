@@ -1,7 +1,7 @@
 import 'package:jomaboi/dao/category_dao.dart';
 import 'package:jomaboi/data/icons.dart';
 import 'package:jomaboi/events.dart';
-import 'package:jomaboi/model/category.model.dart';
+import 'package:jomaboi/models/category.model.dart';
 import 'package:jomaboi/widgets/buttons/button.dart';
 import 'package:jomaboi/widgets/currency.dart';
 import 'package:flutter/material.dart';
