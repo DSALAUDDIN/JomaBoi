@@ -17,15 +17,15 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _phoneNumberController = TextEditingController();
 
   Country selectedCountry = Country(
-    phoneCode: '26',
-    countryCode: 'ZM',
+    phoneCode: '880',
+    countryCode: 'BD',
     e164Sc: 0,
     geographic: true,
     level: 1,
-    name: 'Zambia',
-    example: 'Zambia',
-    displayName: 'Zambia',
-    displayNameNoCountryCode: 'ZM',
+    name: 'Bangladesh',
+    example: 'Bangladesh',
+    displayName: 'Bangladesh',
+    displayNameNoCountryCode: 'BD',
     e164Key: '',
   );
 
